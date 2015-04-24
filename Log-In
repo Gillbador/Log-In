@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>Log-In</title>
+    <style>
+        #navigation{
+            list-style: none;
+        }
+    
+        a{
+            text-decoration: none;
+            background-color: yellow;
+            color: black;
+            font-family: arial;
+            float: left;
+            
+           
+            border: solid;
+            border-color: black;
+            margin: 10px;
+            border-radius: 5px 10px;
+            padding: 20px;
+        }
+        
+        #inotice{
+            color: black;
+            width: 400px;
+            height: 70px;
+            text-align: center;
+            font-size: 80px;
+            padding-top: 20px;
+            padding-bottom: 50px;
+            box-shadow: 10px 10px 10px black;
+            position: relative
+        }
+            
+        #name_vergessen{
+            color: black;
+            width: 100px;
+            height: 20px;
+            text-align: center;
+            float: none;
+            position: relative;
+            box-shadow: 10px 10px 10px black;
+        }
+        #passwort vergessen{
+            
+        }
+        #name und passwort vergessen{
+            
+        }
+        
+        #navigation a:hover{
+            background-color: #B2E183;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navigation">
+        <a id="inotice">iNotice</a>
+        <a id="beschreibung">Ueber die Software</a>
+        <a id="anmelden">Anmelden</a>
+        <a id="registrieren">Registrieren</a>
+        <a id="name">Name</a>
+        <a id="passwort">Passwort</a>
+        <a id="name_vergessen">Name vergessen?</a>
+        <a id="passwort vergessen">Passwort vergessen?</a>
+        <a id="name und passwort vergessen">Name und Passwort vergessen?</a>
+        <a id="name und passwort speichern">Name und Passwort speichern</a>
+    </nav>
+</body>
+</html>
